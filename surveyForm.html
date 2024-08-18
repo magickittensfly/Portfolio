@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">This form will be used to improve the platform</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name" >Name: <input id="name" name="name" type="text" required placeholder="Enter your name"/></label>
+          <label id="email-label" for="email">Email: <input id="email" name="email" type="email" required placeholder="Enter your email"/></label>
+          <label id="number-label" for="number">Number: <input id="number" name="number" type="number" min="1" max="120" placeholder="Enter your number"/></label>
+          <select id="dropdown">
+            <option value="1">option 1</option>
+            <option value="2">option 2</option>
+          </select>
+          
+          <label for="personal"><input id="personal" type="radio" name="selection" value="personal" checked/>Personal</label>
+          <label for="business"><input id="business" type="radio" name="selection" value="business"/>Business</label>
+          <label for="check-boxes">Which did you like?
+            <input value="1" class="inline" id="check-boxes" type="checkbox"/>Learning html5</a><input value = "2" class="inline" id="check-boxes" type="checkbox"/>Learning CSS</a>
+          </label>
+          <label for="comments-suggestions">Any comments or suggestions?
+            <textarea id="comments-suggestions" name="comments-suggestions" rows="3" cols="30" placeholder="I loved coding with html5 and CSS"></textarea>
+       <input id="submit" type="submit" value="Submit"/>     
